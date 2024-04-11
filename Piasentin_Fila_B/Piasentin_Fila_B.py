@@ -1,38 +1,3 @@
-"""
-# Aiuto per il punto 7
-tempi = [(2, 15, 50), (2, 27, 45), (3, 10, 30)]
-max_tempo = max(tempi)
-print(max_tempo)
-
-# Aiuto per il punto 9
-def tempo_medio(tempi):
-    # Inizializza le variabili per sommare i tempi
-    totale_minuti = 0
-    totale_secondi = 0
-    totale_centesimi = 0
-
-    # Somma i tempi
-    #  ...
-
-    # Calcola il numero totale di tempi
-    #totale_tempi = ....
-
-++++++++++++++++++++
-    media_minuti = totale_minuti / totale_tempi
-    media_secondi = totale_secondi / totale_tempi
-    media_centesimi = totale_centesimi / totale_tempi
-
-
-    return [int(media_minuti), int(media_secondi), int(media_centesimi)]
-
-
-tempi_di_gara = [(2, 45, 50), (2, 32, 65), (2, 48, 80)]
-
-media = tempo_medio(tempi_di_gara)
-
-print(f"Tempo medio di gara: {media[0]:2d}:{media[1]:2d}.{media[2]:02d}")
-"""
-
 
 def addEvent(event):
     for chiave in dict.keys():
